@@ -58,15 +58,17 @@ This endpoint retrieves a list of products available in the store. Each product 
 
 To import the data from the `/api/products` endpoint into your Sanity project, you can follow these steps:
 
-### 1. clone this project `sanity-migration` using following command:
-git clone sanity-migration
+### 1. clone this repo `https://github.com/bilalmk/hackathon-template02.git` using following command:
+git clone [sanity-migration](https://github.com/bilalmk/hackathon-template02.git)
 
-### 2. create .env file on the root of project and define following values
+### 2. Navigate to the sanity-migration folder and run the command npm install
+
+### 3. create a .env in sanity-migration folder and define following three variables and values
 - **projectId**: Your Sanity project ID.
 - **dataset**: Your Sanity dataset name.
 - **token**: Your Sanity token (if required).
 
-### 3. Run the Script:
+### 4. Run the Script:
 ```
 node importData.js
 ```
@@ -77,6 +79,6 @@ This will fetch the data from the API and import it into your Sanity project.
 
 ## **Following are the schema you can use to update sanity records after migration**
 ```
-https://hackathon-apis.vercel.app/schema/category
-https://hackathon-apis.vercel.app/schema/product
+https://github.com/bilalmk/hackathon-template02/blob/main/schema/category.ts
+https://github.com/bilalmk/hackathon-template02/blob/main/schema/product.ts
 ```
