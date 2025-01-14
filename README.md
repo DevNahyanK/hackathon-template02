@@ -59,9 +59,14 @@ This endpoint retrieves a list of products available in the store. Each product 
 To import the data from the `/api/products` endpoint into your Sanity project, you can follow these steps:
 
 ### 1. clone this repo `https://github.com/bilalmk/hackathon-template02.git` using following command:
+```
 git clone https://github.com/bilalmk/hackathon-template02.git
+```
 
-### 2. Navigate to the sanity-migration folder and run the command npm install
+### 2. Navigate to the sanity-migration folder and run the following command
+```
+npm install
+```
 
 ### 3. create a .env in sanity-migration folder and define following three variables and values
 - **projectId**: Your Sanity project ID.
